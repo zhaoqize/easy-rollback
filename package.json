@@ -1,0 +1,28 @@
+{
+  "name": "@easy/rollback",
+  "version": "1.0.0",
+  "description": "a rollback util",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "easy": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaoqize/easy-rollback.git"
+  },
+  "keywords": [
+    "mtrb"
+  ],
+  "author": "zhaoqize",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "execa": "^0.10.0",
+    "inquirer": "^5.2.0",
+    "progress": "^2.0.0",
+    "signale": "^1.0.1"
+  }
+}
