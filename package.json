@@ -1,7 +1,7 @@
 {
-  "name": "@easy/rollback",
-  "version": "1.0.0",
-  "description": "a rollback util",
+  "name": "easy-rollback",
+  "version": "1.0.2",
+  "description": "git rollback",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,8 @@
     "url": "https://github.com/zhaoqize/easy-rollback.git"
   },
   "keywords": [
-    "mtrb"
+    "git",
+    "rollback"
   ],
   "author": "zhaoqize",
   "license": "ISC",
