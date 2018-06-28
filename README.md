@@ -1,9 +1,9 @@
-[![GitHub license](https://img.shields.io/github/license/zhaoqize/easy-rollback.svg)](https://github.com/zhaoqize/easy-rollback/blob/master/LICENSE)
+[![NPM version][npm-image]][npm-url][![GitHub license](https://img.shields.io/github/license/zhaoqize/easy-rollback.svg)](https://github.com/zhaoqize/easy-rollback/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 # easy-rollback
 easy-rollback是一个友好的帮助用户回滚到指定提交的库
 
-# 使用
+## 使用
 安装
 ```js
 npm install easy-rollback
@@ -25,3 +25,7 @@ easy rollback
   Commands:
     rollback    rollback solution
 ```
+
+## License
+
+MIT © [zhaoqize]()
