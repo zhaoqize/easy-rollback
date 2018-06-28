@@ -1,3 +1,4 @@
+[![npm](https://img.shields.io/npm/v/easy-rollback.svg?style=flat)](https://github.com/zhaoqize/easy-rollback)
 [![GitHub license](https://img.shields.io/github/license/zhaoqize/easy-rollback.svg)](https://github.com/zhaoqize/easy-rollback/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 # easy-rollback
