@@ -9,8 +9,9 @@ program
 program
   .command('rollback')
   .description('rollback solution')
-  .action(() => {
-      require('../lib/rollback.js')();
+  .option('-n, --num', 'log number')
+  .action((cmd) => {
+      require('../lib/rollback.js')(cmd);
   });
 
 program.parse(process.argv);
