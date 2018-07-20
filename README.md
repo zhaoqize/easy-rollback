@@ -15,16 +15,17 @@ npm install easy-rollback
 easy rollback
 ```
 
-执行 `easy -h`
+执行 `easy rollback -h`
 ```js
-  Usage: easy [options] [command]
+
+  Usage: rollback [options]
+
+  A Rollback Solution For Git
 
   Options:
 
-    -h, --help  output usage information
-
-  Commands:
-    rollback    rollback solution
+    -n, --number  show log number
+    -h, --help    output usage information
 ```
 
 ## 效果
