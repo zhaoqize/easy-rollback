@@ -4,14 +4,14 @@ const program = require('commander');
 
 program
   .version(require('../package').version)
-  .usage('<command> [options]')
+  .usage('<command>')
 
 program
   .command('rollback')
-  .description('rollback solution')
-  .option('-n, --num', 'log number')
-  .action((cmd) => {
-      require('../lib/rollback.js')(cmd);
+  .description('A Rollback Solution For Git')
+  .option('-n, --number', 'show log number')
+  .action((number) => {
+      require('../lib/rollback.js')(number);
   });
 
 program.parse(process.argv);
